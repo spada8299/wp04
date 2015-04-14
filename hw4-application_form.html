@@ -6,16 +6,17 @@
     <link rel="stylesheet" type="text/css" href="hw4-css.css">
   </head>
   <body>
-    <header>
-    <nav class="nav1">
-            <a href="http://spada8299.github.io/wp04/hw4-course_page.html"><span>課程簡介</span></a> | 
-            <a href="http://spada8299.github.io/wp04/hw4-application_form.html"><span>申請加入課程</span></a>
-        </nav>
-        <h1><i class="fa fa-check"></i>申請加入課程</h1>
+    <section class="container">
+    <header class="row">
+        <div class="nav1 col-md-3">
+            <a class="btn btn-default" href="http://spada8299.github.io/wp04/hw4-course_page.html"><span>返回課程簡介</span></a>
+            <!-- <a href="http://spada8299.github.io/wp04/hw4-application_form.html"><span>申請加入課程</span></a> -->
+        </div>
+        <div class="col-md-6"><h1><i class="fa fa-check"></i>申請加入課程</h1>
     </header>
+
   	<div class="form1">
     <form>
-    
     <div class="answer_section"> 
   	<p><label for="name" style="font-size:34px">1.your name:</label></p>
   	<p><input type="text" name="name" id="name" placeholder="Your name" pattern="[A-Za-z0-9]{6}" style="font-size:20px"></p>
@@ -98,5 +99,6 @@
     </div>
 </form>
 </div>
+</section>
   </body>
 </html>

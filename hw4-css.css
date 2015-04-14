@@ -5,23 +5,16 @@
 	src: url(Wang han zong Slim boldface Font-Traditional Chinese.ttf);
 }*/
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 
 body{
-	width: 1100px;
-	margin-right: auto;
-	margin-left: auto;
+/*	margin-right: auto;
+	margin-left: auto;*/
 	background: url(http://spada8299.github.io/wp01/school.png);
 }
 header{
 	padding: 1em;
 	text-align: center;
-}
-
-nav{
-	background-color: #F6C284;
-	padding: 10px 20px;
-	border-radius: 1em;
-
 }
 .nav1>a{
 	background-color: #F6C284;
@@ -40,28 +33,22 @@ nav{
     color: #F6C284;
 }
 
-h1,h2,p,li,table{
+h1,h3,p,li,table{
 	color: #5B554D;
 	font-family: "微軟正黑體", serif;
 }
 
-.infor>h2 {
+h3 {
 /*	border-bottom: 1px solid;
-*/	text-align: center;
+*/	/*text-align: center;*/
 	background-color: #F6C284;
 	border-radius: 0.5em;
+	padding: 10px;
 }
 
-.infor>p,.infor>ol,.infor>ul{
-	padding-left: 2em;
+p,ol,ul{
+	/*padding-left: 2em;*/
 	text-shadow: 0 0 3px #F6C284;
-}
-
-div.infor{
-	float: left;
-	width: 600px;
-	padding-right: 5em ;
-	border-right: 1px solid #907D65;
 }
 
 strong{
@@ -70,8 +57,6 @@ strong{
 }
 
 .chart{
-	width: 35%;
-	float: right;
 	border: 0px;
 }
 
@@ -97,10 +82,6 @@ ol.competence_list{
 
 ol.schedule_list{
 	list-style: decimal inside;
-}
-
-.schedule_list>li{
-	width: 300px;
 }
 
 .schedule_list>li:nth-child(odd){
