@@ -1,0 +1,170 @@
+/*@import url(http://fonts.googleapis.com/css?family=Bitter:400,700&subset=latin,latin-ext);*/
+
+/*@font-face{
+	font-family: ChineseFont;
+	src: url(Wang han zong Slim boldface Font-Traditional Chinese.ttf);
+}*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+
+body{
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(http://spada8299.github.io/wp01/school.png);
+}
+header{
+	padding: 1em;
+	text-align: center;
+}
+
+nav{
+	background-color: #F6C284;
+	padding: 10px 20px;
+	border-radius: 1em;
+
+}
+.nav1>a{
+	background-color: #F6C284;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #5B554D;
+    font-family: "微軟正黑體", serif;
+}
+
+.nav1 span{
+    padding: 10px 20px;
+}
+
+.nav1>a:hover {
+    background-color: #907D65;
+    color: #F6C284;
+}
+
+h1,h2,p,li,table{
+	color: #5B554D;
+	font-family: "微軟正黑體", serif;
+}
+
+.infor>h2 {
+/*	border-bottom: 1px solid;
+*/	text-align: center;
+	background-color: #F6C284;
+	border-radius: 0.5em;
+}
+
+.infor>p,.infor>ol,.infor>ul{
+	padding-left: 2em;
+	text-shadow: 0 0 3px #F6C284;
+}
+
+div.infor{
+	float: left;
+	width: 600px;
+	padding-right: 5em ;
+	border-right: 1px solid #907D65;
+}
+
+strong{
+	color: #FC7200;
+	font-style: bold;
+}
+
+.chart{
+	width: 35%;
+	float: right;
+	border: 0px;
+}
+
+img{
+	opacity: 0.4;
+	padding: 2em;
+	padding-bottom: 0em;
+}
+img:hover{
+	opacity: 1.0;
+}
+
+th{
+	font-size: 24px;
+	font-weight: 900;
+	padding-top: 1em;
+}
+
+ol.competence_list{
+	list-style: inside;
+	list-style-type: upper-alpha;
+}
+
+ol.schedule_list{
+	list-style: decimal inside;
+}
+
+.schedule_list>li{
+	width: 300px;
+}
+
+.schedule_list>li:nth-child(odd){
+	background-color:rgba(255,255,255,0.5);
+}
+
+.introducing{
+	background-color: #F6C284;
+	border-radius: 2em;
+}
+
+.student_core_competence{
+	padding-left: 40px;
+}
+
+label{
+	border-radius: 0.5em;
+}
+
+div.form1{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+	padding-left: 2em;
+}
+
+input[type="text"],input[type="date"],select,input[type="tel"] {
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	padding: 10px 5px 10px 10px;
+	width: 70%;
+}
+
+input[type="email"],input[type="url"]{
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	padding: 10px 5px 10px 10px;
+	width: 90%;
+}
+
+div.answer_section {
+	padding-left: 2em;
+	padding-bottom: 2em;
+	border-radius: 2em;
+}
+
+div.answer_section:hover{
+	background-color: rgba(196, 164, 140, 0.5);
+}
+
+input[type="submit"]{
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	background-color: white;
+	width: 20%;
+	color: #5B554D;
+}
+
+input[type="submit"]:hover{
+	background-color: rgb(196, 164, 140);
+}
+
+div.submit_section{
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
